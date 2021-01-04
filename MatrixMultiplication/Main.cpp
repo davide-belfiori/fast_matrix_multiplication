@@ -86,9 +86,6 @@ int main()
 	float* A = (float*)malloc(9 * sizeof(float));
 	float* C = (float*)malloc(9 * sizeof(float));
 
-	linear_multiply(A, A, C, 3, 3, 3);
-	parallel_multiply(A, A, C, 3, 3, 3);
-
 	std::cout << "Benchmarking... \n\n";
 
 	for (int k = 0; k < num_iter; k++) {

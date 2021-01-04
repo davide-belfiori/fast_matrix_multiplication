@@ -108,7 +108,7 @@ int main()
 
 			seq_val[i] += exec_time;
 
-			// Parallel Esecution
+			// Parallel Execution
 
 			t1 = std::chrono::high_resolution_clock::now();
 
